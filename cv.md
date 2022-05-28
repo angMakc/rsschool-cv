@@ -34,3 +34,25 @@ I research billing system for ..
 + Russian (native)
 + English (beginner)
 + Polish 
+
+# Code example
+
+````
+unction clickReal(D) {
+var Z = Number(document.getElementById('screen').innerText);
+
+	operationFlag = true;
+    switch (D) {
+    	case 'S': Z = Math.sqrt(Z);
+              	 break;   
+        case 'P': Z=Z;
+              	 break;   				 				 
+		case 'R': Z = 1 / Z;
+              	 break;   				 
+		case 'PM': if (Z<0) {Z = Math.abs(Z)} else {Z = 0 - Z};
+              	 break;
+	   }
+    
+   document.getElementById('screen').innerText = Z;   	
+}
+````
