@@ -38,7 +38,7 @@ I research billing system for ..
 # Code example
 
 ````
-unction clickReal(D) {
+function clickReal(D) {
 var Z = Number(document.getElementById('screen').innerText);
 
 	operationFlag = true;
