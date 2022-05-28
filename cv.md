@@ -26,5 +26,11 @@ I have a little expiriens software developer.
 I research billing system for ..
 
 
-Education
+## Education
 +  Belarusian State University of Informatics and Radioelectronics - Telecommunication systems
+
+## Languages:
+
++ Russian (native)
++ English (beginner)
++ Polish 
