@@ -20,6 +20,13 @@ I'm 45 years old. Currently I work at the Belarusian Railways as a team leader. 
 # Expirience
 I have some experience in application development. I developed, wrote and maintain to this day a billing system and related applications for a departmental PBX. The development was carried out in the Lazarus environment (freepascal), using the Firebird database.
 
+## Code example
+````
+function factorial(Num) {
+   if (Num === 0) {return 1;} 
+     else {return Num * factorial(Num - 1);}
+ }
+````
 ## Education
 + Brest College of Railway Transport (1996) - maintenance and repair of automated control systems in railway transport
 +  Belarusian State University of Informatics and Radioelectronics (2004) - Telecommunication systems
@@ -28,24 +35,3 @@ I have some experience in application development. I developed, wrote and mainta
 + Russian (native)
 + English (beginner)
 + Polish 
-
-## Code example
-````
-function clickReal(D) {
-var Z = Number(document.getElementById('screen').innerText);
-
-	operationFlag = true;
-    switch (D) {
-    	case 'S': Z = Math.sqrt(Z);
-              	 break;   
-        case 'P': Z=Z;
-              	 break;   				 				 
-		case 'R': Z = 1 / Z;
-              	 break;   				 
-		case 'PM': if (Z<0) {Z = Math.abs(Z)} else {Z = 0 - Z};
-              	 break;
-	   }
-    
-   document.getElementById('screen').innerText = Z;   	
-}
-````
