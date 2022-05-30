@@ -1,9 +1,10 @@
 ## RSSchool
 
 # Hi, my name is Mikalai.
-
+![Foto Mikalai M](/img/IMG_2093.png 'ggg')
 ## Contact info:
 + Email: angrymax@mail.ru
++ Discord: Mikalai M (@angMakc)
 + GitHub: [angMakc](https://github.com/angMakc)
 + Instagram: [amakc22](https://www.instagram.com/amakc22/)
 
