@@ -17,7 +17,7 @@ I'm 45 years old. Currently I work at the Belarusian Railways as a team leader. 
 + JavaScript (Basic)
 + Git/Github
 
-# Expirience
+## Expirience
 I have some experience in application development. I developed, wrote and maintain to this day a billing system and related applications for a departmental PBX. The development was carried out in the Lazarus environment (freepascal), using the Firebird database.
 
 ## Code example
