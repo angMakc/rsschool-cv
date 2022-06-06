@@ -23,6 +23,6 @@ body {
   border: 1px solid red;
 }
 
-.about, .education, .expirience {
+.about, .education, .expirience, .code {
   border: 1px solid rgb(194, 59, 59);
 }
