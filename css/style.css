@@ -10,3 +10,9 @@ body {
   margin: 0 auto;
   border: 1px solid gray;  
 }
+
+.container-cv {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid darkgray;
+}
