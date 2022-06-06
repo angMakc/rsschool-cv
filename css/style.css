@@ -28,7 +28,7 @@ body {
   border: 1px solid rgb(106, 59, 194);
 }
 
-.profile {  
+.profile, .contact {  
   border: 1px solid rgb(23, 134, 56);
 
 }
