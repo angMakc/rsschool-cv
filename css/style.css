@@ -6,6 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
   min-height: 100vh;
   width: 80%;
@@ -19,10 +20,15 @@ body {
   border: 1px solid darkgray;
 }
 
-.content {
+.content, .info {
   border: 1px solid red;
 }
 
-.about, .education, .expirience, .code {
-  border: 1px solid rgb(194, 59, 59);
+.about, .education, .expirience, .code, .lang {
+  border: 1px solid rgb(106, 59, 194);
+}
+
+.image {  
+  border: 1px solid rgb(23, 134, 56);
+
 }
