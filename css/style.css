@@ -18,3 +18,11 @@ body {
   flex-direction: row;
   border: 1px solid darkgray;
 }
+
+.content {
+  border: 1px solid red;
+}
+
+.about {
+  border: 1px solid rgb(194, 59, 59);
+}
