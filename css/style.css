@@ -15,6 +15,7 @@
   border: 1px solid gray;  
 }
 
+/*
 .profile {
   display: flex;
   flex-direction: row;
@@ -22,7 +23,7 @@
   justify-content: space-between;
 
 }
-
+*/
 .header, .footer {
   min-height: 20px;
 }
@@ -35,7 +36,44 @@
   border: 1px solid darkgray;
 }
 
-.left, .right {
+
+.left {
+  min-width: 30%;
+  background-color: rgb(64, 64, 64);
+}
+
+/**************************** Start Profile ***************************/
+
+.profile{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+   padding-top: 20px;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto; 
+  border: 1px solid white;
+  border-radius: 50px;
+
+}
+
+.profile-h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(237, 27, 52);
+}
+
+.profile-h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(252, 252, 252);
+}
+
+/************************** End Profile *****************************/
+
+.left, .right, .profile, .profile-figure, .profile-image, h1, h2, h3 {
   border: 1px solid rgb(195, 212, 43);  
 }
 
