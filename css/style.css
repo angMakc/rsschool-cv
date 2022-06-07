@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -65,7 +69,7 @@
   color: rgb(237, 27, 52);
 }
 
-.profile-h2 {
+.profile-h3 {
   font-size: 16px;
   font-weight: 400;
   color: rgb(252, 252, 252);
@@ -73,8 +77,58 @@
 
 /************************** End Profile *****************************/
 
+/************************ Start Contact *****************************/
+
+.contact, .skills {margin: 15px 0;}
+
+.contact-h3, .skills-h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(252, 252, 252);
+}
+
+.contact-h3::after {
+  width: 30%;
+  border-top: 3px solid red;  
+}
+
+.contact-item{
+  list-style: none;
+  padding: 10px 0 10px 25px;
+}
+
+.contact-link:link {
+  text-decoration: none;
+  color: rgb(0, 0, 175);
+}
+
+.contact-link:visited {
+  color:rgb(138, 43, 226);
+}
+
+.contact-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+/************************* End Contact *****************************/
+/************************ Start Skills *****************************/
+
+
+/************************* End Skills ******************************/
+
+
+
 .left, .right, .profile, .profile-figure, .profile-image, h1, h2, h3 {
   border: 1px solid rgb(195, 212, 43);  
+}
+
+.skills {
+  border: 1px solid rgb(80, 43, 212);  
+}
+
+.contact, .contact-h3, .contact-item, .contact-list {
+  border: 1px solid rgb(43, 212, 119);
 }
 
 .content, .info {
