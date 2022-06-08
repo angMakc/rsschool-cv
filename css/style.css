@@ -7,6 +7,34 @@ html {
   scroll-behavior: smooth; 
 }
 
+.nav
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 1px solid gray;
+  border-bottom: none;
+  background-image: url(../img/mail-10091.svg);
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  border-radius: 15px/15px 15px/15px;
+}
+
+.nav-link:link { color: #F60; }
+.nav-link:visited { color: #900; }
+.nav-link:hover { color: #F33; }
+.nav-link:active {color: #B2F511; }
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -64,6 +92,7 @@ html {
 
 .profile-image {
   display: block;
+  filter:grayscale(100%);
   margin: 0 auto; 
   /*border: 3px solid rgb(39, 39, 39);*/
   border-radius: 50px;
@@ -105,9 +134,34 @@ html {
   padding: 10px 0 10px 25px;
 }
 
-.contact-link:link {
+.skills-list {
+  padding-left: 20px;
+}
+
+.contact-link,
+.skills-item {
   text-decoration: none;
-  color: rgb(0, 0, 175);
+  padding: 10px 40px;
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  color: rgb(255, 255, 255);
+}
+
+.mail-link {
+  background-image: url(../img/mail-10091.svg);
+}
+
+.github-link {
+  background-image: url('../img/github-svgrepo-com(1).svg');
+}
+
+.discord-link {
+  background-image: url(../img/discord-icon-svgrepo-com.svg);
+}
+
+.instagram-link {
+  background-image: url(../img/instagram-svgrepo-com.svg);
 }
 
 .contact-link:visited {
@@ -115,7 +169,7 @@ html {
 }
 
 .contact-link:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 25, 250);
 }
 
 
@@ -129,6 +183,21 @@ html {
   display: block;
   padding-top: -4px;
   border: 1px solid blue;
+}
+
+.html-item {
+  background-image: url(../img/html.svg);
+}
+.css-item {
+  background-image: url(../img/css.svg);
+}
+
+.js-item {
+  background-image: url(../img/js.svg);
+}
+
+.git-item {
+  background-image: url(../img/github.svg);
 }
 
 /************************* End Skills ******************************/
@@ -205,6 +274,15 @@ table, td {
 /*.about {first-le}*/
 
 /****************************** TEMP **********************************/
+
+.header {
+  border: 1px solid rgb(212, 43, 43);  
+}
+
+.nav {
+  border: 1px solid rgb(212, 43, 43);  
+}
+
 /*
 .right {
   border: 1px solid rgb(212, 43, 43);  
