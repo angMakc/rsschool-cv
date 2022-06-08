@@ -7,31 +7,30 @@ html {
   scroll-behavior: smooth; 
 }
 
-.nav
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.nav-item {
-  list-style-type: none;
+.nav-list{
+  list-style-type: none;  
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-item {
-  display: flex;
-  flex-direction: row;
+  margin: 5px 5px;
+  color:rgb(198, 199, 201);
 }
 
 .nav-link {
   text-decoration: none;
-  padding: 10px 40px;
-  border: 1px solid gray;
-  border-bottom: none;
-  background-image: url(../img/mail-10091.svg);
-  background-size: auto 30px;
-  background-repeat: no-repeat;
-  background-position: 0 50%;
-  border-radius: 15px/15px 15px/15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 10px;
 }
 
-.nav-link:link { color: #F60; }
-.nav-link:visited { color: #900; }
+.nav-link:link { color: rgb(67, 158, 49); }
+/*.nav-link:visited { color: #900; }*/
 .nav-link:hover { color: #F33; }
 .nav-link:active {color: #B2F511; }
 
@@ -39,7 +38,6 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   justify-content: space-between;
   min-height: 100vh;
   width: 960px;
@@ -47,15 +45,6 @@ html {
   /*border: 1px solid gray;  */
 }
 
-/*
-.profile {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-*/
 .header, .footer {
   min-height: 20px;
 }
@@ -64,10 +53,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
- /* min-height: calc(100vh-40vh);*/
   border: 1px solid darkgray;
 }
-
 
 .left {
   min-width: 30%;
@@ -96,7 +83,6 @@ html {
   margin: 0 auto; 
   /*border: 3px solid rgb(39, 39, 39);*/
   border-radius: 50px;
-
 }
 
 .profile-h1 {
@@ -111,6 +97,7 @@ html {
   font-weight: 400;
   letter-spacing: 3px;
   color: rgb(252, 252, 252);
+  padding-bottom: 20px;
 }
 
 /************************** End Profile *****************************/
@@ -121,7 +108,8 @@ html {
 
 .contact-h3, .skills-h3 {
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 600;
+  padding-bottom: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -164,9 +152,11 @@ html {
   background-image: url(../img/instagram-svgrepo-com.svg);
 }
 
+/*
 .contact-link:visited {
   color:rgb(138, 43, 226);
 }
+*/
 
 .contact-link:hover {
   color: rgb(0, 25, 250);
@@ -177,12 +167,6 @@ html {
 /************************ Start Skills *****************************/
 .skills-item {
   color: white;
-}
-
-.skill-item-text {
-  display: block;
-  padding-top: -4px;
-  border: 1px solid blue;
 }
 
 .html-item {
@@ -223,14 +207,6 @@ html {
   border-bottom: 3px solid rgb(198, 199, 201);
 }
 
-.about-header::after {
-  position: absolute;
-  content: '';
-  width: 50px;
-  height: 3px;
-  color: red;
-}
-
 .about-paragraph,
 .expirience-paragraph {
   padding-top: 15px ;
@@ -240,13 +216,6 @@ html {
   word-spacing: 4px;
   
 }
-
-
-/*
-table, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}*/
 
 .education-table {
   word-spacing: 4px;
@@ -270,54 +239,3 @@ table, td {
   vertical-align: top;
   text-align: left;
 }
-
-/*.about {first-le}*/
-
-/****************************** TEMP **********************************/
-
-.header {
-  border: 1px solid rgb(212, 43, 43);  
-}
-
-.nav {
-  border: 1px solid rgb(212, 43, 43);  
-}
-
-/*
-.right {
-  border: 1px solid rgb(212, 43, 43);  
-}
-
-/*
-.about, .education, .expirience, .code, .lang, .intresting {
-  border: 1px solid rgb(195, 212, 43);  
-}*/
-
-/*
-
-.left, .right, .profile, .profile-figure, .profile-image, h1, h2, h3 {
-  border: 1px solid rgb(195, 212, 43);  
-}
-
-.skills, .skills-list, .skills-item {
-  border: 1px solid rgb(80, 43, 212);  
-}
-
-.contact, .contact-h3, .contact-item, .contact-list {
-  border: 1px solid rgb(43, 212, 119);
-}
-
-.content, .info {
-  border: 1px solid red;
-}
-
-.about, .education, .expirience, .code, .lang {
-  border: 1px solid rgb(106, 59, 194);
-}
-
-.profile, .contact, .skills {  
-  border: 1px solid rgb(23, 134, 56);
-
-}
-
-*/
