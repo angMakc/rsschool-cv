@@ -19,10 +19,7 @@ body {
 .nav-list{
   display: flex;
   justify-content: flex-end;
-<<<<<<< HEAD
   margin-right: 10px;
-=======
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 
   list-style-type: none;  
 }
@@ -33,17 +30,10 @@ body {
 
 .nav-link:link{
   position: relative;
-<<<<<<< HEAD
   padding: 14px 3px;
 
   font-weight: 600;
   color: #4D4D4D;
-=======
-  padding: 14px 10px;
-
-  font-weight: 600;
-  color: rgb(77, 77, 77);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1px;
@@ -52,23 +42,11 @@ body {
 }
 
 .nav-link:visited { 
-<<<<<<< HEAD
   color: #969696; 
 }
 
 .nav-link:active {
   color: #FF0000; 
-=======
-  color: rgb(150, 150, 150); 
-}
-
-.nav-link:hover { 
-  transform: scale(1.2);
-}
-
-.nav-link:active {
-  color: red; 
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 }
 
 .nav-link::after {
@@ -79,15 +57,9 @@ body {
   height: 2px;
 
   content: '';
-<<<<<<< HEAD
   background-color: #FF0000;
 
   transition: width 0.25s ease-in;
-=======
-  background-color: red;
-
-  transition: width 0.5s ease-in;
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 }
 
 .nav-link:hover::after,
@@ -100,17 +72,10 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-<<<<<<< HEAD
   margin: 25px auto 40px auto;
   width: 960px;
 
   box-shadow: 40px 40px 15px #888888;
-=======
-  margin: 15px auto;
-  width: 960px;
-
-  box-shadow: 40px 40px 15px rgb(117, 117, 117);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 }
 
 .main {
@@ -122,13 +87,8 @@ body {
 .left {
   min-width: 30%;
 
-<<<<<<< HEAD
   color: #FFFFFF;
   background-color: #404040;
-=======
-  color: rgb(255,255,255);
-  background-color: rgb(64, 64, 64);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 }
 
 /**************************** Start LEFT column ***************************/
@@ -202,11 +162,7 @@ body {
 .skills-item {
   padding: 10px 40px;
 
-<<<<<<< HEAD
   color: #FFFFFF;
-=======
-  color: rgb(255, 255, 255);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 
   text-decoration: none;
   background-size: auto 30px;
@@ -214,7 +170,6 @@ body {
   background-position: 0 50%;
 }
 
-<<<<<<< HEAD
 .contact-link:visited {
   color: #969696;
 }
@@ -227,12 +182,6 @@ body {
   background-image: url(assets/img/icon-mail.svg);
 }
 
-=======
-.mail-link {
-  background-image: url(assets/img/icon-mail.svg);
-}
-
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 .github-link {
   background-image: url(assets/img/icon-github.svg);
 }
@@ -245,13 +194,6 @@ body {
   background-image: url(assets/img/icon-instagram.svg);
 }
 
-<<<<<<< HEAD
-=======
-.contact-link:hover {
-  color:rgb(0, 0, 255);
-}
-
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 .html-item {
   background-image: url(assets/img/icon-html.svg);
 }
@@ -273,11 +215,7 @@ body {
 /**************************** Start RIGHT column ***************************/
 
 .right {
-<<<<<<< HEAD
   color: #646464;
-=======
-  color: rgb(99, 99, 99);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 
   background-color: #ffffff;
 }
@@ -292,11 +230,7 @@ body {
   font-size: 16px;
 
   letter-spacing: 3px;
-<<<<<<< HEAD
   border-bottom: 3px solid #C8C8C8;
-=======
-  border-bottom: 3px solid rgb(198, 199, 201);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 
   text-transform: uppercase;
 }
@@ -311,11 +245,7 @@ body {
 
     content: "";
 
-<<<<<<< HEAD
     background-color: #ED1B34;
-=======
-    background-color: rgb(237, 27, 52);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
   }
 
 .about-paragraph,
@@ -327,18 +257,14 @@ body {
   word-spacing: 4px;
 }
 
-<<<<<<< HEAD
 .expirience-paragraph {
   font-size: 14px;
 }
 
-=======
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 .expirience-link {
   display: inline-block;
   padding-top: 15px;
 
-<<<<<<< HEAD
   color: #4D4D4D;
   text-decoration: none;
 
@@ -353,18 +279,11 @@ body {
 .expirience-link:hover {
   color: #0000FF;
   transform: scale(1.05);
-=======
-  text-decoration: none;
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 }
 
 .expirience-icon {
   padding-left: 25px;
-<<<<<<< HEAD
   background-size: 22px auto;
-=======
-  background-size: auto 25px;
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
@@ -399,7 +318,6 @@ body {
   display: block;
   padding-top: 10px; 
 
-<<<<<<< HEAD
   font-weight: 600;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -428,33 +346,6 @@ body {
 
 .name-var {
   color: #66E5FC;
-=======
-  background-color: gray;
-}
-
-.reserv-word {
-  color:rgb(58, 7, 243);
-}
-
-.function-name {
-  color: #c9ff4d;
-}
-
-.function-sign {
-  color: yellow;
-}
-
-.if-else {
-  color: rgb(124, 16, 124);
-}
-
-.reserv-sign {
-  color: white;
-}
-
-.name-var {
-  color:rgb(102, 229, 252);
->>>>>>> 83f71a5dc56293f52d091f4a530a04c75b3653ff
 }
 
 .lang-list {
