@@ -1,1 +1,1 @@
-# rsschool-cv
+https://angMakc.github.io/rsschool-cv
